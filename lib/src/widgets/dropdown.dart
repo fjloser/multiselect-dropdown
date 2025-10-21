@@ -102,6 +102,7 @@ class _Dropdown<T> extends StatelessWidget {
                 Flexible(child: decoration.header!),
               Flexible(
                 child: ListView.separated(
+                  padding: EdgeInsets.zero,
                   separatorBuilder: (_, __) =>
                       itemSeparator ?? const SizedBox.shrink(),
                   shrinkWrap: true,
